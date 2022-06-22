@@ -139,6 +139,30 @@ python3 gen_sa_accounts.py --download-keys project_id
 python3 add_to_team_drive.py -d SharedTeamDriveSrcID
 ```
 
+# Extras
+
+## Bot commands to be set in [@BotFather](https://t.me/BotFather)
+
+```
+mirror - Start Mirroring
+tarmirror - Start mirroring and upload as .tar
+zipmirror - Start mirroring and upload as .zip
+watch - Mirror Youtube-dl supported link
+tarwatch - Mirror Youtube playlist link and upload as .tar
+unzipmirror - Extract files
+clone - Copy file/folder to Drive
+status - Get Mirror Status message
+search - Searches files in Drive
+cancel - Cancel a task
+cancelall - Cancel all tasks
+restart - Restart the Bot
+stats - Bot Usage Stats
+ping - Ping the Bot
+log - Get the Bot Log
+help - Get Detailed Help
+```
+------
+
 # Youtube-dl authentication using .netrc file
 For using your premium accounts in youtube-dl, edit the netrc file (in the root directory of this repository) according to following format:
 ```
